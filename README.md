@@ -1,5 +1,9 @@
-## Descargar pdfs de solicitudes de Radicaciones
+# Descargar pdfs de solicitudes de Radicaciones
 > Aplicacion cliente que consume servicio de la api de litigar, para descargar los pdfs asociados a las solicitudes de radicaciones.
+## 1 Video explicativo de la instalación
+[![Alt text](https://img.youtube.com/vi/TWMNQ5hEILA/0.jpg)](https://www.youtube.com/watch?v=TWMNQ5hEILA)
+## 2 Video de configuración y ejecución para la descarga de los pdfs
+[![Alt text](https://img.youtube.com/vi/im43fsOfZSg/0.jpg)](https://www.youtube.com/watch?v=im43fsOfZSg)
 # Versionamiento
 - Fecha primera versión: 24/03/2022
 * Python >3.6.2 +
