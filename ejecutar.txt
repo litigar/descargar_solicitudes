@@ -10,3 +10,9 @@ python -m venv venv_descarga
 
 pip freeze
 pip install -r requirements.txt
+
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/litigar/descargar_solicitudes.git
+git push -u origin main
+
