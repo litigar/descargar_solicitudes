@@ -20,17 +20,17 @@
 # Configuración inicial
 - Abra el archivo .env
 - Ingrese el usuario y password de litigar inmediatamente al frente de caracter igual (=)
-> user_name=
-> password=
+> - user_name=
+> - password=
 # Funcionalidad
 ## 1. Selección de solicitudes para descargar pdfs
 - En el archivo solicitudes.txt se deben ingresar los numero de solicitudes.
 - En cada fila del archivo se debe ingresar un numero de solicitud.
-- El numero de solicitud no debe tener estar con caracteres adicionales como la coma, punto y coma o pipes.
+- El numero de solicitud no se deben separar con caracteres adicionales como la coma, punto y coma o pipes.
 ## 2. Descargue de pdfs de las solicitudes
 - Los archivos pdfs quedan ubicados en la carpeta pdfs.
-- El nombre del archivo tiene la siguiente estructura:
-Solicitus_id_Historia_id_estadoSolicitud.pdf
+- El nombre del archivo descargado tiene la siguiente estructura:
+> Solicitus_id_Historia_id_estadoSolicitud.pdf
 ## 3. Logs:
 - Los logs de la ejecución de la aplicación quedan ubicados en la carpeta logs.
 # Ejecución de la aplicación
