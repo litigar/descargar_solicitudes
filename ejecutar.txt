@@ -1,0 +1,12 @@
+C:\DocJairo\desarrollo\liti\descargar_solicitudes\venv_descarga\Scripts\activate
+C:\DocJairo\desarrollo\liti\descargar_solicitudes\venv_descarga\Scripts\deactivate
+
+cd C:\DocJairo\desarrollo\liti\descargar_solicitudes
+cd C:/DocJairo/desarrollo/liti/descargar_solicitudes
+python descargar_solicitudes.py
+
+pip install virtualenv
+python -m venv venv_descarga
+
+pip freeze
+pip install -r requirements.txt
