@@ -17,16 +17,16 @@
 ## 3. Instale el entorno virtual:
 - Abra una terminal e ingrese a la carpeta donde descomprimió el archivo zip 
 > python -m pip install virtualenv
-Si no funciona la instrucción con la palabra python, utilice la palabra py
+> - Si no funciona la instrucción con la palabra python, utilice la palabra py
 > py -m pip install virtualenv
 - Cree un entorno virtual
 > python -m venv venv_descarga
-Si no funciona la instrucción con la palabra python, utilice la palabra py
+> - Si no funciona la instrucción con la palabra python, utilice la palabra py
 > py -m venv venv_descarga
 - Activar El Entorno Virtual
 > venv_descarga\Scripts\activate
 - Entorno Virtual Activo (Ejemplo del video)
-(venv_descarga) C:\descargar_solicitudes-main>
+> (venv_descarga) C:\descargar_solicitudes-main>
 ## 4. Instale los componentes
 Con el entorno virtual activo ejecute el siguiente comando
 > pip install -r requirements.txt
@@ -52,9 +52,9 @@ Estando en la terminal en la ruta principal del proyecto, ejecute los siguientes
 - Activar El Entorno Virtual
 > venv_descarga\Scripts\activate
 - Entorno Virtual Activo
-(venv_descarga) C:\descargar_solicitudes-main>
+> (venv_descarga) C:\descargar_solicitudes-main>
 ## 2. realizar la descarga de pdfs de las solicitudes
 > python descargar_solicitudes.py
-Si no funciona la instrucción con la palabra python, utilice la palabra py
+- Si no funciona la instrucción con la palabra python, utilice la palabra py
 > py descargar_solicitudes.py
 
