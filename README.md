@@ -58,7 +58,7 @@ Estando en la terminal en la ruta principal del proyecto, ejecute los siguientes
 > - C:\descargar_solicitudes-main\venv_descarga\Scripts\activate
 - Entorno Virtual Activo
 > - Debe aparacer entre paréntesis al lado izquierdo de la ruta el nombre del entorno.
-> (venv_descarga) C:\descargar_solicitudes-main>
+> - (venv_descarga) C:\descargar_solicitudes-main>
 ## 2. realizar la descarga de pdfs de las solicitudes
 > python descargar_solicitudes.py
 - Si no funciona la instrucción con la palabra python, utilice la palabra py
