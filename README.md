@@ -25,6 +25,8 @@ Si no funciona la instrucción con la palabra python, utilice la palabra py
 > py -m venv venv_descarga
 - Activar El Entorno Virtual
 > venv_descarga\Scripts\activate
+- Entorno Virtual Activo (Ejemplo del video)
+(venv_descarga) C:\descargar_solicitudes-main>
 ## 4. Instale los componentes
 Con el entorno virtual activo ejecute el siguiente comando
 > pip install -r requirements.txt
@@ -46,7 +48,12 @@ Con el entorno virtual activo ejecute el siguiente comando
 - Los logs de la ejecución de la aplicación quedan ubicados en la carpeta logs.
 # Ejecución de la aplicación
 Estando en la terminal en la ruta principal del proyecto, ejecute los siguientes pasos:
-## 1. realizar la descarga de pdfs de las solicitudes
+## 1. Asegurese de tener el entorno virtual activo
+- Activar El Entorno Virtual
+> venv_descarga\Scripts\activate
+- Entorno Virtual Activo
+(venv_descarga) C:\descargar_solicitudes-main>
+## 2. realizar la descarga de pdfs de las solicitudes
 > python descargar_solicitudes.py
 Si no funciona la instrucción con la palabra python, utilice la palabra py
 > py descargar_solicitudes.py
