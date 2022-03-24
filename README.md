@@ -25,8 +25,11 @@
 > - py -m venv venv_descarga
 - Activar El Entorno Virtual
 > venv_descarga\Scripts\activate
+> - Para el ejemplo del video, ejecutar:
+> - C:\descargar_solicitudes-main\venv_descarga\Scripts\activate
 - Entorno Virtual Activo (Ejemplo del video)
-> (venv_descarga) C:\descargar_solicitudes-main>
+> - debe aparacer entre paréntesis al lado izquierdo de la ruta el nombre del entorno.
+> - (venv_descarga) C:\descargar_solicitudes-main>
 ## 4. Instale los componentes
 Con el entorno virtual activo ejecute el siguiente comando
 > pip install -r requirements.txt
@@ -39,7 +42,7 @@ Con el entorno virtual activo ejecute el siguiente comando
 ## 1. Selección de solicitudes para descargar pdfs
 - En el archivo solicitudes.txt se deben ingresar los numero de solicitudes.
 - En cada fila del archivo se debe ingresar un numero de solicitud.
-- El numero de solicitud no se deben separar con caracteres adicionales como la coma, punto y coma o pipes.
+- Los números de solicitud no se deben separar con caracteres adicionales como la coma, punto y coma o pipes.
 ## 2. Descargue de pdfs de las solicitudes
 - Los archivos pdfs quedan ubicados en la carpeta pdfs.
 - El nombre del archivo descargado tiene la siguiente estructura:
@@ -51,7 +54,10 @@ Estando en la terminal en la ruta principal del proyecto, ejecute los siguientes
 ## 1. Asegurese de tener el entorno virtual activo
 - Activar El Entorno Virtual
 > venv_descarga\Scripts\activate
+> - Para el ejemplo del video, ejecutar:
+> - C:\descargar_solicitudes-main\venv_descarga\Scripts\activate
 - Entorno Virtual Activo
+> - Debe aparacer entre paréntesis al lado izquierdo de la ruta el nombre del entorno.
 > (venv_descarga) C:\descargar_solicitudes-main>
 ## 2. realizar la descarga de pdfs de las solicitudes
 > python descargar_solicitudes.py
