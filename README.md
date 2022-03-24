@@ -18,11 +18,11 @@
 - Abra una terminal e ingrese a la carpeta donde descomprimió el archivo zip 
 > python -m pip install virtualenv
 > - Si no funciona la instrucción con la palabra python, utilice la palabra py
-> py -m pip install virtualenv
+> - py -m pip install virtualenv
 - Cree un entorno virtual
 > python -m venv venv_descarga
 > - Si no funciona la instrucción con la palabra python, utilice la palabra py
-> py -m venv venv_descarga
+> - py -m venv venv_descarga
 - Activar El Entorno Virtual
 > venv_descarga\Scripts\activate
 - Entorno Virtual Activo (Ejemplo del video)
