@@ -1,18 +1,7 @@
-C:\DocJairo\desarrollo\liti\descargar_solicitudes\venv_descarga\Scripts\activate
-C:\DocJairo\desarrollo\liti\descargar_solicitudes\venv_descarga\Scripts\deactivate
+---Activar entorno---
+C:\descargar_solicitudes-main\venv_descarga\Scripts\activate
 
-cd C:\DocJairo\desarrollo\liti\descargar_solicitudes
-cd C:/DocJairo/desarrollo/liti/descargar_solicitudes
+---Ejecutar aplicacion---
+cd C:\descargar_solicitudes-main
 python descargar_solicitudes.py
-
-pip install virtualenv
-python -m venv venv_descarga
-
-pip freeze
-pip install -r requirements.txt
-
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/litigar/descargar_solicitudes.git
-git push -u origin main
 
